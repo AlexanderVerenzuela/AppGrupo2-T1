@@ -65,3 +65,5 @@ class Pregunta7Activity : AppCompatActivity(), View.OnClickListener {
         }
     }
 }
+
+
