@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">appgrupo2</string>
+    <string name="titulo_pregunta7">Tiempo de Ocupación de Andén de Descarga</string>
+    <string name="hint_minutos">Ingrese minutos en andén</string>
+    <string name="btn_calcular">Calcular</string>
+
 </resources>

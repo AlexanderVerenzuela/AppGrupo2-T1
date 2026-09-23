@@ -6,6 +6,12 @@ android {
     namespace = "com.example.appgrupo2"
     compileSdk {
         version = release(37)
+
+        buildFeatures {
+            viewBinding = true
+        }
+
+
     }
 
     defaultConfig {
