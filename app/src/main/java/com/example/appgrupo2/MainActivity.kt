@@ -30,10 +30,10 @@ class MainActivity : AppCompatActivity() {
            startActivity(intent)
           }
 
-        //    binding.btnPregunta4.setOnClickListener {
-        //      val intent = Intent(this, Pregunta4Activity::class.java)
-        //       startActivity(intent)
-        //   }
+            binding.btnPregunta4.setOnClickListener {
+              val intent = Intent(this, Pregunta4Activity::class.java)
+               startActivity(intent)
+           }
 
            binding.btnPregunta5.setOnClickListener {
                val intent = Intent(this, Pregunta5Activity::class.java)
