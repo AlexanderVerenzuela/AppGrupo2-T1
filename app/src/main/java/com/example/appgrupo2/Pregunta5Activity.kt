@@ -40,7 +40,7 @@ class Pregunta5Activity : AppCompatActivity(), View.OnClickListener {
         }else if (peso > 18){
             val exceso = peso - 18;
             val multad = 1800 + (exceso*650)
-            val multa =String.format("%.2f, multad")
+            val multa =String.format("%.2f", multad)
             binding.txtrespuesta.text = "Peso Registrado: $peso \n" +
                     "Exceso de carga: $exceso \n" +
                     "Multa calculada: s/. $multa"
